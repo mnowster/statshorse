@@ -1,0 +1,13 @@
+body {
+background:none;
+background-position:center; 
+color:#FF7400;
+background-color:#009999;
+background: url('skulls/skulls.png');
+}
+
+#main {
+text-align:center;
+margin: 150px;
+font-size: 3em;
+}
