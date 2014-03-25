@@ -1,13 +1,23 @@
+@import url('http://fonts.googleapis.com/css?family=Allan');
+
 body {
-background:none;
-background-position:center; 
 color:#FF7400;
 background-color:#009999;
 background: url('skulls/skulls.png');
+    font-family: 'Allan';
 }
 
-#main {
-text-align:center;
+div {
+    text-align:center;
 margin: 150px;
-font-size: 3em;
+    font-size: 2em;
+}
+
+a {
+    text-decoration: none;
+    color: #097054;
+}
+
+a:hover {
+    color: #ff9900;
 }
