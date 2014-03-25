@@ -1,3 +1,10 @@
 language: ruby
 rvm:
-  - 2.1.0
+- 2.1.0
+deploy:
+  provider: heroku
+  api_key:
+    secure: YOhGrbNs+DU5Etbszp8yPhmKGouuwjrKj34T221ju6t2cm/uLQ99apfXBE63uYMe43CYHIzCtvgBlqSZQTBcYFp899WARs0TONCfNZ2fKnB5n4lK7YlV4LeervDwpssabZbVrGvVGivbd1oUVOR5wh+RDA5HrDfgCCt32rWd/FE=
+  app: anstatshorse
+  on:
+    repo: mnowster/statshorse
