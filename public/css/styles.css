@@ -1,15 +1,15 @@
 @import url('http://fonts.googleapis.com/css?family=Allan');
 
 body {
-color:#FF7400;
-background-color:#009999;
-background: url('skulls/skulls.png');
+    color: #FF7400;
+    background-color: #009999;
+    background: url('skulls/skulls.png');
     font-family: 'Allan';
 }
 
 div {
-    text-align:center;
-margin: 150px;
+    text-align: center;
+    margin: 150px;
     font-size: 2em;
 }
 
